@@ -1,0 +1,10 @@
+{
+    "appName": {
+        "message": "sodoku",
+        "description": "The name of the application"
+    },
+    "appDescription": {
+        "message": "Simple Chrome game",
+        "description": "The description of the application"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "__MSG_appName__",
+    "description": "__MSG_appDescription__",
+    "version": "5",
+    "manifest_version": 2,
+    "default_locale": "en",
+    "permissions": [
+        {
+            "socket": [
+                "tcp-listen:*:*",
+                "tcp-connect:*:*"
+            ]
+        },
+        "fullscreen",
+        "geolocation",
+        "notifications",
+        "pushMessaging",
+        "<all_urls>"
+    ],
+    "icons": {
+        "16": "images/icon-16.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "app": {
+        "background": {
+            "scripts": [
+                "scripts/main.js",
+                "scripts/chromereload.js"
+            ]
+        }
+    }
+}
